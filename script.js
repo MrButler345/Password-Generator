@@ -34,7 +34,6 @@ function copyToClipboard() {
 
     try {
         document.execCommand('copy');
-        alert('Password copied to clipboard!');
     } catch (err) {
         console.error('Failed to copy password', err);
     }
